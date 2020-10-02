@@ -1,0 +1,12 @@
+spring:
+  datasource:
+      url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC&useSSL=false&autoReconnect=true&tinyInt1isBit=false&useUnicode=true&characterEncoding=utf8
+      username: root
+      password: sk100200
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+###################  mybatis-plus配置  ###################
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:config/mybatis-config.xml
+    
